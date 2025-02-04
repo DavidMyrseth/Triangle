@@ -141,32 +141,5 @@ namespace Triangle_vorm
 
             xmlDoc.Save(filePath);     
         }
-
-        //private void SaveTriangleToXml(Triangle triangle)
-        //{
-        //    string filePath = "kolmnurgad.xml";
-
-        //    XmlWriterSettings settings = new XmlWriterSettings();
-        //    settings.Indent = true;
-
-        //    XmlWriter writer = XmlWriter.Create(filePath, settings);
-
-        //    writer.WriteStartDocument();
-        //    writer.WriteStartElement("Triangles");
-
-        //    writer.WriteStartElement("Triangle");
-
-        //    writer.WriteAttributeString("Külg", triangle.GetSetA.ToString());
-        //    writer.WriteAttributeString("Kõrgus", triangle.GetSetH.ToString());
-        //    writer.WriteAttributeString("Pindala", triangle.CalculateSurfaceHeight().ToString());
-
-        //    writer.WriteEndElement();
-        //    writer.WriteEndElement();
-
-        //    writer.Flush();
-
-        //    writer.Close();
-
-        //}
     }
 }
